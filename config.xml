@@ -9,7 +9,7 @@
 
     <preference name="phonegap-version" value="3.3.0" />
     <name>Newsletter prototype</name>
-    <description>Newsletter prototype</description>
+    <description>Prova di newsletter</description>
 	<author href="http://www.edizioniseed.it" email="info@edizioniseed.it">SEEd</author>
 	
    <preference name="permissions"                value="none"/>
