@@ -1,0 +1,281 @@
+#lista_news{
+	background-color:#0065A9;
+	margin-top:2em;
+	padding:5pt;
+	border-radius: 10px;}
+#lista_news a{
+	text-align:left;}
+#lista_news p{
+	color:white;
+	margin-top:0.2em;
+	margin-bottom:0.2em;}
+
+
+
+
+
+/*CSS per OJS di CMI. Ver. 2.1*/
+
+/*Blu #0065A9*/
+/*Blu scuro #024877*/
+/*Granata #AC2412*/
+/*Grigio #AEAFB2*/
+#area{
+	margin-top:3em;
+	padding: 10px;}
+ 
+
+#area a:link{
+	color: #0065A9;}
+#area a:active{
+	color: #000000;}
+#area a:visited{
+	color: #0065A9;}
+#area a:hover{
+	color: #ffffff;
+	background: #0065A9;}
+	
+
+p.titolo, p.titolo-inglese, p.autori, p.affiliazione, p.abstract, p.keywords, p.corresponding-author-titolo, p.disclosure-titolo, p.prima-pagina-disclosure-titolo, p.corresponding-author, p.disclosure, div.tabella-grande, div.tabella-piccola, div.tabella-piccola-sx{
+	line-height: normal;}
+p.titolo{
+	font-size: 170%;
+	line-height: normal;
+	margin: 0.5em 0em 0em 0em;
+	padding: 0em 0em 0em 0em;
+	text-align: left;
+	font-weight: bold;
+	color: #AC2412;}
+p.autori{
+	margin: 2em 0em 0.7em 0em;
+	padding-top:0em;
+	padding-bottom:0em;}
+p.affiliazione{
+	font-size: 90%;
+	margin: 0em;
+	padding: 0em;
+	font-style: italic;}	
+p.titolo-abstract, p.abstract, p.keywords, p.titolo-inglese, p.rivista{
+	line-height: 1.3em;
+	line-height: normal;
+	font-size: 90%;
+	background-color:rgb(220,220,220);}
+p.titolo-abstract{
+	font-weight: bold;
+	margin: 1.5em 0em 0em 0em;
+	padding: 1em 1em 0.5em 1em;
+	color: #AC2412;}
+p.abstract{
+	text-indent: 1em;
+	margin: 0em;
+	padding: 0em 1em 0em 1em;}
+span.parola-keywords{
+	color: #AC2412;
+	font-weight: bold;
+	font-style: normal;	
+}
+p.keywords{
+	margin: 0em;
+	padding: 1em 1em 0em 1em;
+	background-color:rgb(220,220,220);
+	font-style: italic;}	
+p.titolo-inglese{
+	margin: 0em;
+	padding: 1em 1em 0.2em 1em;
+	font-weight: bold;
+	color: #0065A9;}
+p.rivista{
+	margin: 0em;
+	padding: 0em 1em 1em 1em;
+	font-weight: bold;
+	color: #0065A9;}
+p.argomento-articolo{
+	font-variant: small-caps;
+	font-size: 150%;
+	margin: 0em;
+	padding: 15px 5px 5px 5px;
+	font-weight: bold;
+	background: #0065A9;
+	color:#FFFFFF}
+p.corresponding-author-titolo, p.disclosure-titolo{
+	font-size: 90%;
+	margin: 0em;
+	padding: 1.7em 0em 0em 0em;	
+	font-weight: bold;}
+p.corresponding-author, p.disclosure{
+	font-size: 90%;
+	line-height: 130%;
+	margin: 0em;
+	padding: 0em;}
+/*-*/
+p.sottotitolo-1{
+	font-size: 150%;
+	line-height: normal;
+	margin: 1.9em 0em 1em 0em;
+	padding: 0em 0em 0.2em 0em;
+	text-align: left;
+	color: #57565A;
+	border-bottom: 0.1em solid #0065A9;}
+p.sottotitolo-2{
+	font-size: 110%;
+	margin: 2em 0em 0.5em 0em;
+	padding: 0em;
+	text-align: left;
+	font-weight: bold;
+	color: #0065A9;}
+p.sottotitolo-3{
+	font-size: 110%;
+	margin: 1.5em 0em 0.5em 0em;
+	padding: 0em;
+	text-align: left;
+	color: #57565A;}
+p.sottotitolo-4{
+	font-size: 100%;
+	margin: 0.5em 0em 0.2em 0em;
+	padding: 0em;
+	font-style: italic;
+	text-align: left;
+	color: #57565A;}
+/*-*/
+p.testo, li.testo-elenco-1, li.testo-elenco-num-, p.box-testo, p.base-tabella, li.testo-elenco-2{
+	line-height: 1.3em;
+	text-align: justify;
+	padding: 0em;}	
+p.testo, li.testo-elenco-1, li.testo-elenco-2, li.testo-elenco-num-, p.box-testo, p.base-tabella, p.tabella-titolo-orizzontale{
+	margin: 0em;}
+p.testo{
+	text-indent: 1em;}
+li.tabella-testo-elenco1, li.tabella-testo-elenco2 {
+	line-height: 1.3em;
+	text-align: left;
+	padding: 0em;}
+li.tabella-testo-elenco1{
+	margin: 0em;}
+li.tabella-testo-elenco2{
+	margin: 0em 0em 0em 2em;}
+li.bibliografia, p.bibliografia{
+	line-height: 1.1em;
+	margin-top:0em;
+	margin-bottom:0.2em;}
+ol,ul{
+	margin-top:0em;
+	margin-bottom:0em;
+	padding-top:0.2em;
+	padding-bottom:0.2em;}
+p.tabella-titolo{	
+	margin: 0.5em 0em 0.5em 0em;
+	padding: 0em;
+	text-align: center;
+	font-weight: bold;
+	color: #0065A9;}	
+p.tabella-titolo-orizzontale{	
+	margin: 0em;
+	font-weight: bold;
+	color: #0065A9;}	
+p.tabella-testo, p.tabella-testo-sx, p.base-tabella{
+	line-height: 1.2em;
+	margin: 0em;
+	padding: 0em;}
+p.tabella-testo{
+	text-align: center;}
+p.tabella-testo-sx{
+	text-align: left;}
+p.didascalia{
+	font-size: 90%;
+	font-weight: bold;
+	margin: 0.3em 1.2em 0.3em 1.2em;
+	padding: 0em;}
+p.didascalia-legenda{
+	font-size: 85%;
+	margin: 0em 1.5em 0em 1.5em;
+	padding: 0em;
+	color: #57565A;
+	font-style: italic;}
+p.box-titolo{
+	margin: 0em 0em 0.75em 0em;
+	padding: 0em;
+	font-weight: bold;}
+/*-*/
+div.img-in-riga{
+	display:inline-block;
+	padding: 0px 4px 0px 0px;
+}
+div.tabella-grande{
+	width:100%;
+	margin: 30px 0px 30px 0px;}
+div.tabella-piccola, div.tabella-piccola-sx{
+	display:block;
+	width:48%;}
+div.tabella-piccola-sx{
+	float:left;
+	margin:30px 14px 30px 0px;}
+div.tabella-piccola{
+	float:right;
+	margin:30px 0px 30px 14px;
+	padding-right:2px;
+	top:-30px;}
+div.img-in-riga div.tabella-piccola{
+	margin:30px 0px 30px 0px;
+}
+/*-*/
+span.img{
+	margin:0em;
+	padding:0em;}	
+div.tabella-grande img, div.tabella-piccola img, div.tabella-piccola-sx img{
+	margin:0em;
+	padding:0em;
+	width:99%;
+	border: 2px solid #0065A9;}	
+div.tabella-grande table, div.tabella-piccola table, div.tabella-piccola-sx table{
+	width:100%;
+	font-size: 90%;
+	line-height:1.3;
+	margin: 0em;
+	padding: 0em;
+	border-collapse:collapse;
+	border: 2px solid #0065A9;}
+table ol, table ul{
+	padding-top:0em;
+	padding-bottom:0em;}
+thead, tbody, tr{	
+	margin: 0em;
+	padding: 0em;
+	border: 1px solid #AEAFB2;
+	vertical-align:top;}
+td{ 
+	margin: 0em;
+	padding: 5px;}
+div.box{
+	color: #024877;
+	padding:0.75em;
+	margin: 2em 0em 2em 0em;	
+	font-size: 90%;
+	background-color:#e8eef7;
+	border-top: 1px solid #AEAFB2;
+	border-bottom: 1px solid #AEAFB2;}
+div.box a{
+	color: #FFFFFF}
+span.foreignphrase,span.testo-tabella-corsivo{
+	font-style: italic;}
+span.emphasis{
+	font-weight: bold;}
+span.emphasis-foreignphrase{
+	font-style: italic;
+	font-weight: bold;}
+span.superscript{
+	line-height: 0.7em;
+	font-size: 60%;
+	vertical-align:top;}
+span.subscript{
+	line-height: 0.7em;
+	font-size: 60%;
+	vertical-align:bottom;}
+img.formula{
+	margin:1em 0em 1em 0em;
+	text-align:center;
+    display:block;
+	height: 2.5em;}
+p.formule{
+	text-align: center;
+	margin: 1.5em 0em 1.5em 0em;
+	padding: 0em;}
